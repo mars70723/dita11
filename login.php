@@ -3,9 +3,9 @@
 
     <div class="container">
         <div class="w-50 mx-auto" style="margin: 100px auto;">
-            <h1 class="mb-5">Please sign in</h1>
+            <h1>LOG IN</h1>
 
-<form>
+<form action="LoginLogic.php" method="POST">
   <!-- Email input -->
   <div data-mdb-input-init class="form-outline mb-4">
     <input type="email" id="form2Example1" class="form-control" />
@@ -21,7 +21,7 @@
   
 
   <!-- Submit button -->
-  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
+  <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block mb-4">Sign in</button>
 
   <!-- Register buttons -->
   <div class="text-center">
